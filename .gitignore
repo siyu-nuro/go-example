@@ -1,0 +1,10 @@
+# dirs
+/bin
+.idea/
+# don't include generated files (e.g. protoc-generated code)
+/pkg/gen
+/vendor
+
+# specific files
+/cover.out
+/lint.log

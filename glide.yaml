@@ -1,0 +1,41 @@
+package: github.com/siyu-nuro/go-example
+import:
+- package: bitbucket.org/ckvist/twilio
+  subpackages:
+  - twiml
+- package: github.com/davecgh/go-spew
+  version: ^1.1.0
+  subpackages:
+  - spew
+- package: github.com/dgrijalva/jwt-go
+  version: ^3.2.0
+- package: github.com/go-kit/kit
+  version: ^0.7.0
+  subpackages:
+  - auth/jwt
+  - endpoint
+  - transport/http
+- package: github.com/go-sql-driver/mysql
+  version: ^1.4.0
+- package: github.com/gorilla/handlers
+  version: ^1.4.0
+- package: github.com/gorilla/mux
+  version: ^1.6.2
+- package: github.com/jmoiron/sqlx
+- package: github.com/oklog/oklog
+  version: ^0.3.2
+  subpackages:
+  - pkg/group
+- package: github.com/twpayne/go-geom
+  subpackages:
+  - encoding/wkb
+- package: go.uber.org/zap
+  version: ^1.9.0
+  subpackages:
+  - zapcore
+- package: google.golang.org/grpc
+  version: ^1.14.0
+  subpackages:
+  - reflection
+- package: gopkg.in/yaml.v2
+  version: ^2.2.1
