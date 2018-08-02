@@ -1,0 +1,2 @@
+{"level":"info","ts":"2018-08-02T00:01:57.490-0700","caller":"go-example/main.go:89","msg":"transportHTTPaddr:8080"}
+{"level":"info","ts":"2018-08-02T00:01:59.494-0700","caller":"go-example/main.go:111","msg":"exitreceived signal interrupt"}

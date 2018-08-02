@@ -1,6 +1,6 @@
 database:
     addr: "tcp(127.0.0.1:3306)"
-    name: "logistics"
+    name: "db"
 
 httpServer:
     port: "8080"

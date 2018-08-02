@@ -33,5 +33,5 @@ make install
 
 Run:
 ```
-logistics
+go-example --config config/production.yaml
 ```
